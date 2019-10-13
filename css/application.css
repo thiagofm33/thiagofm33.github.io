@@ -1,0 +1,91 @@
+html, body {
+  background: #242424;
+  background-image: url(../images/site_bg.png), url(../images/site_footer_bg.png);
+  background-repeat: repeat-x;
+  background-position: top center, bottom center;
+}
+
+body {
+  font-family: Ubuntu;
+}
+
+a {
+  color:#d34b4b;
+}
+a:hover {
+  color:#f06565;
+}
+
+.navbar {
+  background: none;
+}
+
+.tile.is-parent {
+  padding-bottom:39px;
+}
+.tile.is-parent:last-child {
+  padding-bottom:0px;
+}
+
+.tile.vc-tile, .tile.gp-tile, .tile.tr-tile, .tile.k-tile {
+    background-repeat: repeat-y;
+    background-position-x: 112%;
+    background-position-y: center;
+}
+
+.tile.vc-tile {
+  background-image: url(../images/vc_cover.png);
+  background-color:#001a1a;
+  border: 1px solid #004e4e;
+  color:#008888;
+}
+
+.tile.gp-tile {
+  background-image: url(../images/gp_cover.png);
+  background-color:#151515;
+  border: 1px solid #b14141;
+  color:#d34b4b;
+}
+
+.tile.tr-tile {
+  background-image: url(../images/tr_cover.png);
+  background-color:#3E3729;
+  border: 1px solid #637155;
+  color:#b49c6f;
+}
+
+.tile.k-tile {
+  background-image: url(../images/k_cover.png);
+  background-color:#406142;
+  border: 1px solid #ab84d3;
+  color:#9cd19e;
+}
+
+.game-video {
+  width:570px;
+  height:291px;
+}
+
+
+.google-play-badge {
+  display:block;
+  margin-top:45px;
+  margin-left:-9px;
+}
+.google-play-badge img {
+  width:180px;
+}
+
+
+@media only screen and (max-width: 1023px) {
+  .tile.vc-tile, .tile.gp-tile, .tile.tr-tile, .tile.k-tile {
+    background-image: none;
+  }
+}
+
+
+@media only screen and (max-width: 1407px) {
+  .tile.vc-tile, .tile.gp-tile, .tile.tr-tile, .tile.k-tile {
+    background-position-x: 153%;
+  }
+}
