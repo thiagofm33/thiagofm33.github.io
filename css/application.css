@@ -40,11 +40,19 @@ a:hover {
   color:#008888;
 }
 
+.tile.vc-tile iframe {
+  border:1px solid #004e4e;
+}
+
 .tile.gp-tile {
   background-image: url(../images/gp_cover.png);
   background-color:#151515;
   border: 1px solid #b14141;
   color:#d34b4b;
+}
+
+.tile.gp-tile iframe {
+  border:1px solid #b14141;
 }
 
 .tile.tr-tile {
@@ -54,11 +62,19 @@ a:hover {
   color:#b49c6f;
 }
 
+.tile.tr-tile iframe {
+  border:1px solid #637155;
+}
+
 .tile.k-tile {
   background-image: url(../images/k_cover.png);
   background-color:#406142;
   border: 1px solid #ab84d3;
   color:#9cd19e;
+}
+
+.tile.k-tile iframe {
+  border:1px solid #AB84D3;
 }
 
 .game-video {
