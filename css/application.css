@@ -66,15 +66,24 @@ a:hover {
   height:291px;
 }
 
+/* Badges  */
 
-.google-play-badge {
-  display:block;
+.badges {
   margin-top:45px;
-  margin-left:-9px;
+}
+.badge {
+  display:block;
+}
+.badge img {
+  width: 156px;
+}
+.google-play-badge {
+  margin: -12px;
 }
 .google-play-badge img {
-  width:180px;
+  width: 180px;
 }
+
 
 .document {
   background-color: #D2D2D2;
