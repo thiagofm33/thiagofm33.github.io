@@ -33,6 +33,12 @@ a:hover {
   background-position-y: center;
 }
 
+.tile.stt-tile {
+  background-color:#212721;
+  border: 1px solid #5e725f;
+  color:#a7bda8;
+}
+
 .tile.vc-tile {
   background-image: url(../images/vc_cover.png);
   background-color:#001a1a;
