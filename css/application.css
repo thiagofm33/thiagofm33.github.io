@@ -120,6 +120,7 @@ a:hover {
 }
 
 @media only screen and (max-width: 1215px) {
+  .tile.stt-tile,
   .tile.vc-tile,
   .tile.gp-tile,
   .tile.tr-tile,
