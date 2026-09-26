@@ -201,7 +201,7 @@ a:hover {
   padding: var(--spacing-xl) var(--spacing-lg);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 4rem;
+  gap: 3rem;
 }
 
 /* Game Cards */
