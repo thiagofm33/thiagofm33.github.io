@@ -16,6 +16,13 @@
 
 html, body {
   background: #242424;
+  background-image: radial-gradient(
+    ellipse 800px 600px at 50% 0%,
+    rgba(167, 189, 168, 0.03) 0%,
+    rgba(0, 136, 136, 0.02) 25%,
+    rgba(211, 75, 75, 0.02) 50%,
+    transparent 100%
+  );
 }
 
 body {
@@ -94,25 +101,7 @@ a:hover {
   overflow: hidden;
 }
 
-.site-hero::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(
-    ellipse at center,
-    rgba(167, 189, 168, 0.1) 0%,
-    rgba(0, 136, 136, 0.08) 25%,
-    rgba(211, 75, 75, 0.06) 50%,
-    rgba(180, 156, 111, 0.05) 75%,
-    transparent 100%
-  );
-  pointer-events: none;
-  z-index: 0;
-}
-
 .site-hero__content {
-  position: relative;
-  z-index: 1;
   max-width: 600px;
   margin: 0 auto;
 }
