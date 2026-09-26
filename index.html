@@ -7,194 +7,152 @@
   <title>Lascante Games</title>
   <link rel="icon" type="image/png" href="images/favicon.ico"/>
   <link rel="stylesheet" href="css/font-awesome/css/all.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&family=Asimovian&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/fonts.css" />
   <link rel="stylesheet" href="css/application.css" />
 </head>
 <body>
 
-  <section class="section">
-    <div class="navbar is-transparent">
-      <div class="container">
-        <div class="navbar-brand">
-          <a href="/">
-            <img src="images/lascante_logo_with_text.png" alt="Lascante Games" title="Lascante Games" style="height:120px;" />
-          </a>
-        </div>
-
-        <div class="navbar-end">
-          <a href="https://www.facebook.com/lascante" target="_blank" class="icon is-large has-text-white">
-            <i class="fab fa-2x fa-facebook-square"></i>
-          </a>
-          <a href="https://twitter.com/lascantegames" target="_blank" class="icon is-large has-text-white">
-            <i class="fab fa-2x fa-twitter-square"></i>
-          </a>
-          <a href="https://www.instagram.com/lascante" target="_blank" class="icon is-large has-text-white">
-            <i class="fab fa-2x fa-instagram"></i>
-          </a>
-          <a href="https://www.youtube.com/channel/UCvTKxpOAGV4ZLv6MZW8UlCw" target="_blank" class="icon is-large has-text-white">
-            <i class="fab fa-2x fa-youtube-square"></i>
-          </a>
-        </div>
-
+  <nav class="site-navbar">
+    <div class="site-navbar__container">
+      <a href="/" class="site-navbar__logo">
+        <img src="images/lascante_logo_with_text.png" alt="Lascante Games" />
+      </a>
+      <div class="site-navbar__socials">
+        <a href="https://www.facebook.com/lascante" target="_blank" class="social-icon" aria-label="Facebook">
+          <i class="fab fa-facebook-square"></i>
+        </a>
+        <a href="https://twitter.com/lascantegames" target="_blank" class="social-icon" aria-label="Twitter">
+          <i class="fab fa-twitter-square"></i>
+        </a>
+        <a href="https://www.instagram.com/lascante" target="_blank" class="social-icon" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.youtube.com/channel/UCvTKxpOAGV4ZLv6MZW8UlCw" target="_blank" class="social-icon" aria-label="YouTube">
+          <i class="fab fa-youtube-square"></i>
+        </a>
       </div>
+    </div>
+  </nav>
+
+  <section class="site-hero">
+    <div class="site-hero__decoration"></div>
+    <div class="site-hero__content">
+      <p class="site-hero__tagline" style="line-height: 30px; text-align: right;">
+        Apenas um desenvolvedor</br>
+        perseguindo seu sonho de criar games.
+      </p>
     </div>
   </section>
 
-  <div class="container is-widescreen">
-    <div class="tile is-ancestor">
-      <div class="tile is-vertical is-12">
-
-        <div class="tile is-parent">
-          <article class="tile stt-tile is-child notification is-dark">
-
-            <div class="content is-info">
-              
-              <div class="columns">
-                <div class="column is-5">
-                  <img src="images/screenshots/stt/1.png" />
-                </div>
-                <div class="column is-4">
-                  <p class="title">Slippy Tac Toe</p>
-                  <p class="subtitle">Get 3 equal symbols in a row</p>
-                  <p class="is-size-7">
-                    The symbols slip down onto the board infinitly. You have to move an rotate the board in order to get 3 equal symbols in a row. Once you get 3 in a row, you score and that row gets cleared; which makes room on the board for more symbols.
-                  </p>
-                  <p class="badges">
-                    <a class="badge google-play-badge" target="_blank" href='https://play.google.com/store/apps/details?id=com.LascanteGames.SlippyTacToe'>
-                      <img alt='Get it on Google Play' src='images/google_play_badge.png'/>
-                    </a>
-                  </p>
-                </div>
-              </div>
-
-            </div>
-          </article>
-        </div>
-
-        <div class="tile is-parent">
-          <article class="tile vc-tile is-child notification is-dark">
-
-            <div class="content is-info">
-              
-              <div class="columns">
-                <div class="column is-5">
-                  <img src="images/screenshots/vc/1.png" />
-                </div>
-                <div class="column is-4">
-                  <p class="title">Vortex Chain</p>
-                  <p class="subtitle">An abstract 3D shooter</p>
-                  <p class="is-size-7">
-                    Colorful, fun and really challenging. Vortex Chain is a different shooter, where you'll be able to control up to 4 ships at once in order to either destroy or avoid the obstacles in your way.
-                  </p>
-                  <p class="badges">
-                    <a class="badge google-play-badge" target="_blank" href='https://play.google.com/store/apps/details?id=com.thiagofm33.vortex_chain'>
-                      <img alt='Get it on Google Play' src='images/google_play_badge.png'/>
-                    </a>
-                  </p>
-                </div>
-              </div>
-
-            </div>
-          </article>
-        </div>
-
-        <div class="tile is-parent">
-          <article class="tile gp-tile is-child notification is-dark">
-
-            <div class="content is-info">
-
-                <div class="columns">
-                  <div class="column is-5">
-                    <img src="images/screenshots/gp/1.png" />
-                  </div>
-                  <div class="column is-4">
-                    <p class="title">Gun Polygon</p>
-                    <p class="subtitle">2D shooter</p>
-                    <p class="is-size-7">
-                      Gun Polygon is both a puzzle game and a shooter game. You have to shoot the falling polygons to prevent them from touching the red line at the bottom of the screen, but you can only destroy them if your weapon has the same color as them.
-                    </p>
-                    <p class="badges">
-                      <a class="badge google-play-badge" target="_blank" href='https://play.google.com/store/apps/details?id=com.thiagofm33.gunpolygon'>
-                        <img alt='Get it on Google Play' src='images/google_play_badge.png'/>
-                      </a>
-                      <a class="badge" target="_blank" href='https://lascante.itch.io/gun-polygon'>
-                        <img alt='Available on itch.io' src='images/itchio_badge.svg'/>
-                      </a>
-                    </p>
-                  </div>
-                </div>
-
-            </div>
-          </article>
-        </div>
-
-        <div class="tile is-parent">
-          <article class="tile tr-tile is-child notification is-dark">
-            <div class="content is-info">
-              <div class="columns">
-                <div class="column is-5">
-                  <img src="images/screenshots/tr/1.png" />
-                </div>
-                <div class="column is-4">
-                  <p class="title">Tree Rush</p>
-                  <p class="subtitle">Collect the trees and don't get destroyed!</p>
-                  <p class="is-size-7">
-                    This little bot has the important mission of collecting as many trees as possible. Unfortunately, the place he was sent to is really dangerous. The reason for that is the presence of lots of weird shurikens that might stop him from completing his mission.
-                    What is his mission? And why?
-                  </p>
-                  <p class="badges">
-                    <a class="badge google-play-badge" target="_blank" href='https://play.google.com/store/apps/details?id=com.thiagofm33.treerush'>
-                      <img alt='Get in on Google Play' src='images/google_play_badge.png'/>
-                    </a>
-                    <a class="badge" target="_blank" href='https://lascante.itch.io/tree-rush'>
-                      <img alt='Available on itch.io' src='images/itchio_badge.svg'/>
-                    </a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </article>
-        </div>
-
-        <div class="tile is-parent">
-          <article class="tile k-tile is-child notification is-dark">
-            <div class="content is-info">
-              <div class="columns">
-                <div class="column is-5">
-                  <img src="images/screenshots/kcl/1.png" />
-                </div>
-                <div class="column is-4">
-                  <p class="title">Kalculia</p>
-                  <p class="subtitle">Train your brain!</p>
-                  <p class="is-size-7">
-                    A simple math game with simple math problems involving the basic operations. Practice the math tables and improve your math skills in a fun and challenging way.
-                  </p>                  
-                  <p class="badges">
-                    <a class="badge google-play-badge" target="_blank" href='https://play.google.com/store/apps/details?id=com.thiagofm33.kalculia'>
-                      <img alt='Get in on Google Play' src='images/google_play_badge.png'/>
-                    </a>
-                    <a class="badge" target="_blank" href='https://lascante.itch.io/kalculia'>
-                      <img alt='Available on itch.io' src='images/itchio_badge.svg'/>
-                    </a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </article>
-        </div>
-
-
+  <main class="games">
+    <section class="game-card stt" aria-labelledby="stt-title">
+      <div class="game-card__media">
+        <img src="images/screenshots/stt/1.png" alt="Slippy Tac Toe gameplay screenshot" loading="lazy" width="640" height="360" />
       </div>
-    </div>
-  </div>
+      <div class="game-card__body">
+        <h2 id="stt-title" class="game-card__title">Slippy Tac Toe</h2>
+        <p class="game-card__subtitle">Get 3 equal symbols in a row</p>
+        <p class="game-card__desc">
+          The symbols slip down onto the board infinitly. You have to move an rotate the board in order to get 3 equal symbols in a row. Once you get 3 in a row, you score and that row gets cleared; which makes room on the board for more symbols.
+        </p>
+        <div class="game-card__badges">
+          <a class="store-badge store-badge--google" target="_blank" href='https://play.google.com/store/apps/details?id=com.LascanteGames.SlippyTacToe'>
+            <img alt='Get it on Google Play' src='images/google_play_badge.png'/>
+          </a>
+        </div>
+      </div>
+    </section>
 
-  <div class="container has-text-white">
-    <div class="section has-text-centered">
-      Copyright &copy; <span id="copyright-year"></span> Thiago F. Martins <br/><a href="mailto:lascantegames@gmail.com">lascantegames@gmail.com</a>
+    <section class="game-card vc" aria-labelledby="vc-title">
+      <div class="game-card__media">
+        <img src="images/screenshots/vc/1.png" alt="Vortex Chain gameplay screenshot" loading="lazy" width="1280" height="720" />
+      </div>
+      <div class="game-card__body">
+        <h2 id="vc-title" class="game-card__title">Vortex Chain</h2>
+        <p class="game-card__subtitle">An abstract 3D shooter</p>
+        <p class="game-card__desc">
+          Colorful, fun and really challenging. Vortex Chain is a different shooter, where you'll be able to control up to 4 ships at once in order to either destroy or avoid the obstacles in your way.
+        </p>
+        <div class="game-card__badges">
+          <a class="store-badge store-badge--google" target="_blank" href='https://play.google.com/store/apps/details?id=com.thiagofm33.vortex_chain'>
+            <img alt='Get it on Google Play' src='images/google_play_badge.png'/>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="game-card gp" aria-labelledby="gp-title">
+      <div class="game-card__media">
+        <img src="images/screenshots/gp/1.png" alt="Gun Polygon gameplay screenshot" loading="lazy" width="640" height="360" />
+      </div>
+      <div class="game-card__body">
+        <h2 id="gp-title" class="game-card__title">Gun Polygon</h2>
+        <p class="game-card__subtitle">2D shooter</p>
+        <p class="game-card__desc">
+          Gun Polygon is both a puzzle game and a shooter game. You have to shoot the falling polygons to prevent them from touching the red line at the bottom of the screen, but you can only destroy them if your weapon has the same color as them.
+        </p>
+        <div class="game-card__badges">
+          <a class="store-badge store-badge--google" target="_blank" href='https://play.google.com/store/apps/details?id=com.thiagofm33.gunpolygon'>
+            <img alt='Get it on Google Play' src='images/google_play_badge.png'/>
+          </a>
+          <a class="store-badge store-badge--itchio" target="_blank" href='https://lascante.itch.io/gun-polygon'>
+            <img alt='Available on itch.io' src='images/itchio_badge.svg'/>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="game-card tr" aria-labelledby="tr-title">
+      <div class="game-card__media">
+        <img src="images/screenshots/tr/1.png" alt="Tree Rush gameplay screenshot" loading="lazy" width="1025" height="640" />
+      </div>
+      <div class="game-card__body">
+        <h2 id="tr-title" class="game-card__title">Tree Rush</h2>
+        <p class="game-card__subtitle">Collect the trees and don't get destroyed!</p>
+        <p class="game-card__desc">
+          This little bot has the important mission of collecting as many trees as possible. Unfortunately, the place he was sent to is really dangerous. The reason for that is the presence of lots of weird shurikens that might stop him from completing his mission. What is his mission? And why?
+        </p>
+        <div class="game-card__badges">
+          <a class="store-badge store-badge--google" target="_blank" href='https://play.google.com/store/apps/details?id=com.thiagofm33.treerush'>
+            <img alt='Get it on Google Play' src='images/google_play_badge.png'/>
+          </a>
+          <a class="store-badge store-badge--itchio" target="_blank" href='https://lascante.itch.io/tree-rush'>
+            <img alt='Available on itch.io' src='images/itchio_badge.svg'/>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="game-card k" aria-labelledby="k-title">
+      <div class="game-card__media">
+        <img src="images/screenshots/kcl/1.png" alt="Kalculia gameplay screenshot" loading="lazy" width="640" height="360" />
+      </div>
+      <div class="game-card__body">
+        <h2 id="k-title" class="game-card__title">Kalculia</h2>
+        <p class="game-card__subtitle">Train your brain!</p>
+        <p class="game-card__desc">
+          A simple math game with simple math problems involving the basic operations. Practice the math tables and improve your math skills in a fun and challenging way.
+        </p>
+        <div class="game-card__badges">
+          <a class="store-badge store-badge--google" target="_blank" href='https://play.google.com/store/apps/details?id=com.thiagofm33.kalculia'>
+            <img alt='Get it on Google Play' src='images/google_play_badge.png'/>
+          </a>
+          <a class="store-badge store-badge--itchio" target="_blank" href='https://lascante.itch.io/kalculia'>
+            <img alt='Available on itch.io' src='images/itchio_badge.svg'/>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__content">
+      <p>Copyright &copy; <span id="copyright-year"></span> Thiago F. Martins</p>
+      <a href="mailto:lascantegames@gmail.com">lascantegames@gmail.com</a>
       <script type="text/javascript">document.getElementById('copyright-year').innerHTML = (new Date()).getFullYear();</script>
     </div>
-  </div>
+  </footer>
 
 </body>
 </html>
