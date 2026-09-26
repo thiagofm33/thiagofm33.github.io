@@ -16,9 +16,6 @@
 
 html, body {
   background: #242424;
-  background-image: url(../images/site_bg.png), url(../images/site_footer_bg.png);
-  background-repeat: repeat-x;
-  background-position: top center, bottom center;
 }
 
 body {
